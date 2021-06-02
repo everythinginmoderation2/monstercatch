@@ -1,0 +1,33 @@
+*{
+	font-family: 'Langar', cursive;
+}
+body {
+	margin: 0 auto;
+	padding: 0 100px;
+	display: flex;
+	justify-content: center;
+}
+
+div#canvas{
+	width: 50%;
+	margin-right: 50px;
+}
+#canvas {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+#inputText {
+	height: 20px;
+	width: 100px;
+	border: solid;
+}
+
+#highscores {
+	border: solid;
+	border-color: black;
+	display: flex;
+	flex-direction: column;
+}
